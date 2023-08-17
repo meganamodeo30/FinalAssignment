@@ -1,0 +1,40 @@
+/*index page*/
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(201,133,203,1) 0%, rgba(48,177,189,1) 46%, rgba(100,0,255,1) 100%);
+}
+
+.container {
+    width: 1600px;
+    height: 900px;
+    display: flex;
+    margin: auto;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1180px;
+    height: 600px;
+}
+
